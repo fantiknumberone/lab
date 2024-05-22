@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Название проекта
+project(SortingProject)
+
+# Добавление исполняемого файла
+add_executable(bebebe main.c massiv.c sort.c)
+
+# Установка стандарта C
+set_property(TARGET SortingProject PROPERTY C_STANDARD 99)
